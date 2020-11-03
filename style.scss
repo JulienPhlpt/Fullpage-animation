@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+
+.s1 {
+  background-image: url(../images/nantes.jpg);
+  background-size: cover;
+
+  h1 {
+    font-size: 64px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background: linear-gradient(to left, #303030, #648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+#nantes {
+  font-size: 90px;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  background: linear-gradient(to left, tomato, powderblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description p {
+  margin: 50px 0;
+  text-align: justify;
+}
+
+.c2 {
+  box-shadow: 0px 20px 60px -30px rgba(0, 0, 0, 0.45);
+}
+
+/*SECTION 2*/
+.s2 {
+  h1 {
+    position: absolute;
+    top: 10%;
+    right: 70%;
+    font-size: 48px;
+    transform: translate(-50%, 20%);
+    background: linear-gradient(to left, #303030, #648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .city {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+  }
+}
+
+/*SECTION 3*/
+.s3 {
+  h1 {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 48px;
+    transform: translate(-50%, 20%);
+    background: linear-gradient(to left, #303030, #648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .city2 {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 45%;
+    font-size: 20px;
+  }
+}
+
+/*SECTION 4*/
+.s4 {
+  h1 {
+    position: absolute;
+    top: 10%;
+    right: 70%;
+    font-size: 48px;
+    transform: translate(-50%, 20%);
+    background: linear-gradient(to left, #303030, #648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .city3 {
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+  }
+}
